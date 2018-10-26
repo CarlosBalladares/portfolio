@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { CssBaseline } from '@material-ui/core';
+
+import Navbar from './../components/Navbar.js';
+import Parallax from './../components/Parallax.js';
+import Portfolio from './../components/Portfolio';
 
 function LandingView(){
   return(
-    <h3>hello world</h3>
+    <CssBaseline>
+
+      <Fragment>
+        <Navbar />
+        <Parallax />
+        <Portfolio />
+      </Fragment>
+    
+    </CssBaseline>
   );
 }
 
