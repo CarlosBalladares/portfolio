@@ -24,7 +24,8 @@ class Parallax extends Component{
       <ReactParallax
         bgImage={bg}
         blur={10}
-        className={classes.parallax}
+        className={classes.parallax},
+        disabled,
         strength={200}
       >
         <Welcome/>
