@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My porfolion of projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf build && mkdir -p build && cd web_app &&  npm run build &&  mv build ..  && node ../app.js",
+    "stop": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosBalladares/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Carlos Balladares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosBalladares/portfolio/issues"
+  },
+  "homepage": "https://github.com/CarlosBalladares/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
