@@ -41,8 +41,8 @@ const portfolioData=[
     title: 'Shader toys',
     desc:'These are textures generated procedurally in the fragment shader.I used webgl to accomplish this.',
     tech:['Three.js', 'WebGl', 'Rendering'],
-    // demo:'https://connectedsoundsapp.herokuapp.com',
-    // source: 'https://github.com/CarlosBalladares/connected-new-website'
+    demo:'https://raytracer3js.herokuapp.com/shaders/',
+    source: 'https://github.com/CarlosBalladares/webgl-raytracer/tree/master/public/shaders'
   },
 
   {
