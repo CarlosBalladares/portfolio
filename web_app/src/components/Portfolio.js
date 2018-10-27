@@ -51,9 +51,9 @@ const portfolioData=[
   },
 
   {
-    thumbnail: require('./../assets/hrlogo.jpg'),
+    thumbnail: require('./../assets/hackerrank.png'),
     title: 'Hackerrank Interview prep kit problems',
-    desc:'This are my solutions with detailed explanations to hackerrank\'s interview preparation problem set. ',
+    desc:'This are my solutions with detailed explanations for this problemset ',
     tech:['C++', 'Algorithms'],
     demo:'https://connectedsoundsapp.herokuapp.com',
     source: 'https://github.com/CarlosBalladares/connected-new-website'
@@ -61,12 +61,32 @@ const portfolioData=[
 
   {
     thumbnail: require('./../assets/java_logo.png'),
-    title: 'Personal Java Compiler',
+    title: 'Java Compiler',
     desc:'A Java compiler implemented with a teammate. This project was completes as part of CS411. It supports basic java syntax.',
     tech:['Java', 'Compiler', 'Maven'],
     demo:'https://connectedsoundsapp.herokuapp.com',
     source: 'https://github.com/CarlosBalladares/connected-new-website'
   },
+
+  {
+    thumbnail: require('./../assets/canary.jpg'),
+    title: 'Canary aka MAADC',
+    desc:'A smartwatch data collection system. The app collects data from smartwatches and sends it to a sever for analysis.',
+    tech:['QA', 'Android', 'Testing'],
+    demo:'https://connectedsoundsapp.herokuapp.com',
+    source: 'https://github.com/CarlosBalladares/connected-new-website'
+  },
+
+  {
+    thumbnail: require('./../assets/simplecontroller.png'),
+    title: 'Gain-Control-VST',
+    desc:'Simple proof of concept project to get acquainted with DASP. A gain controller implemented using the JUCE framework. A simple plugin',
+    tech:['DSP', 'JUCE', 'C++'],
+    demo:'https://connectedsoundsapp.herokuapp.com',
+    source: 'https://github.com/CarlosBalladares/connected-new-website'
+  },
+
+
 
 ]
 

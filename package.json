@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "dev": "cd web_app && npm run start"
+    "build-client": "rm -rf build/ && cd web_app && npm run build && mv build .. && cd ..",
+    "dev": "npm run build-client && npm run start"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/CarlosBalladares/portfolio#readme",
   "dependencies": {
+    "ascii-art": "^1.4.4",
     "express": "^4.16.4",
     "typeface-roboto": "0.0.54"
   }

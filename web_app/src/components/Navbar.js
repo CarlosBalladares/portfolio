@@ -25,7 +25,8 @@ const styles = {
     flexGrow: 1,
     'backgroundColor':'white',
     boxShadow: 'none',
-    display:'flexbox'
+    display:'flexbox',
+    //height:"75px"
   },
   icon:{
     position: 'relative',
@@ -43,6 +44,9 @@ const styles = {
   },
   navlinks:{
     flex:1
+  },
+  tb:{
+    'backgroundColor':'white'
   }
 };
 
@@ -58,8 +62,9 @@ class Navbar extends Component{
       <AppBar 
         position="fixed" 
         className={classes.root}  
+        color="white"
       >
-        <Toolbar>
+        <Toolbar className={classes.tb}>
           <div className={classes.navlinks}>
             <Button disableRipple="true" className={classes.navbavButton} >
               <img src={logo} className={classes.icon}/>

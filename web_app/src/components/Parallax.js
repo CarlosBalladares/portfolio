@@ -3,12 +3,13 @@ import { Parallax as ReactParallax, Background } from 'react-parallax';
 import { withStyles } from '@material-ui/core/styles';
 import Headshot from './Headshot.js'
 import Welcome from './Welcome'
-import bg from './../assets/bgclean.png';
+import bg from './../assets/halfring4.png';
 
 const styles={
   parallax:{
-    'align-items':'center'
-    
+    'align-items':'center',
+    'background-image':`url(${bg})`,
+    'background-size':'cover'
   }
 }
 
@@ -21,14 +22,14 @@ class Parallax extends Component{
     const {classes} = this.props
 
     return(
-      <ReactParallax
+      <div
         bgImage={bg}
         blur={10}
         className={classes.parallax}
       >
         <Welcome/>
         <div style={{ height: '400px' }} />
-      </ReactParallax>
+      </div>
       // <h3>h</h3>
     );
 
