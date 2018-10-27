@@ -13,7 +13,7 @@ function LandingView(){
       <Fragment>
         <Navbar />
         <Parallax />
-        <Portfolio />
+        <Portfolio id="portfolio" />
         {/* <Skills /> */}
       </Fragment>
     

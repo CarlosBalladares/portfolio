@@ -66,14 +66,14 @@ class Navbar extends Component{
       >
         <Toolbar className={classes.tb}>
           <div className={classes.navlinks}>
-            <Button disableRipple="true" className={classes.navbavButton} >
+            <Button disableRipple="true" className={classes.navbavButton}  >
               <img src={logo} className={classes.icon}/>
               <Typography  variant="button"  className={classes.iconText}>
                 Carlos Balladares
               </Typography>
             </Button>
-            <Hidden smDown>
-              <Button>
+            <Hidden smDown >
+              <Button href="#portfolio">
                 <Typography  variant="button"  >
                   Portfolio
                 </Typography>
@@ -92,17 +92,17 @@ class Navbar extends Component{
           </div>
           <Hidden className={classes.navicons} smDown>
             <Tooltip title="medium">
-              <IconButton color="black" href="https://www.medium.com/@carlosbf">
+              <IconButton color="black" href="https://www.medium.com/@carlosbf" target="_blank" >
                 <Medium />
               </IconButton>
             </Tooltip>
             <Tooltip title="github">
-              <IconButton color="black" href="https://www.github.com/carlosballadares">
+              <IconButton color="black" href="https://www.github.com/carlosballadares" target="_blank" >
                 <Github />
               </IconButton>
             </Tooltip>
             <Tooltip title="linkedin">
-              <IconButton color="black" href="https://www.linkedin.com/in/carlosbf/">
+              <IconButton color="black" href="https://www.linkedin.com/in/carlosbf/" target="_blank" >
                 <Linkedin />
               </IconButton>
             </Tooltip>

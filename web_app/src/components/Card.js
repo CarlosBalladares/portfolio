@@ -35,7 +35,7 @@ function ImgMediaCard(props) {
   const { title } = props;
   const { desc } = props;
   const { tech } =props
-  const { liveDemo } = props;
+  const { demo } = props;
   const { source } = props;
   // const thumb = require(thumbnail);
   return (
@@ -64,9 +64,15 @@ function ImgMediaCard(props) {
         }
       </CardActions>
       <CardActions>
-        <Button size="small" color="primary">
-          Live Demo
-        </Button>
+        
+          
+         
+            <Button size="small" color={demo===undefined?"gray":"primary"} disabled={demo===undefined} href={demo}>
+              Live Demo
+            </Button>
+        
+          
+        
         <Button size="small" color="primary">
           Source Code
         </Button>
