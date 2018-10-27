@@ -1,13 +1,13 @@
 {
   "main.css": "/static/css/main.b93fe69b.chunk.css",
-  "main.js": "/static/js/main.4c3b45dc.chunk.js",
-  "main.js.map": "/static/js/main.4c3b45dc.chunk.js.map",
+  "main.js": "/static/js/main.cce73130.chunk.js",
+  "main.js.map": "/static/js/main.cce73130.chunk.js.map",
   "static/css/1.7bddfcd2.chunk.css": "/static/css/1.7bddfcd2.chunk.css",
   "static/js/1.385f2627.chunk.js": "/static/js/1.385f2627.chunk.js",
   "static/js/1.385f2627.chunk.js.map": "/static/js/1.385f2627.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/index.css": "/static/media/roboto-latin-900italic.bc833e72.woff",
+  "static/media/index.css": "/static/media/roboto-latin-700italic.010c1aee.woff2",
   "static/media/halfring4.png": "/static/media/halfring4.24b3d4b7.png",
   "static/media/port-photo.jpg": "/static/media/port-photo.fc0f513c.jpg",
   "static/media/image-14.jpg": "/static/media/image-14.3c8b899c.jpg",
@@ -22,6 +22,6 @@
   "static/css/main.b93fe69b.chunk.css.map": "/static/css/main.b93fe69b.chunk.css.map",
   "static/css/1.7bddfcd2.chunk.css.map": "/static/css/1.7bddfcd2.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.99de01c700d9bafcfd1443f099355909.js": "/precache-manifest.99de01c700d9bafcfd1443f099355909.js",
+  "precache-manifest.ac1f9b39ba9e95a7b8720e2b93af7d24.js": "/precache-manifest.ac1f9b39ba9e95a7b8720e2b93af7d24.js",
   "service-worker.js": "/service-worker.js"
 }

@@ -84,8 +84,8 @@ class Navbar extends Component{
                 </Typography>
               </Button>
               <Button>
-                <Typography  variant="button"  >
-                  Contact
+                <Typography  variant="button" href="mailto:carlosbf@protonmail.com" >
+                  Contact email: carlosbf@protonmail.com
                 </Typography>
               </Button>
             </Hidden>
