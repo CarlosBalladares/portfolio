@@ -57,7 +57,7 @@ const portfolioData=[
   {
     thumbnail: require('./../assets/hackerrank.png'),
     title: 'Hackerrank Interview prep kit problems',
-    desc:'This are my solutions with detailed explanations for this problemset ',
+    desc:'These are my solutions with detailed explanations for this problemset ',
     tech:['C++', 'Algorithms'],
     // demo:'https://connectedsoundsapp.herokuapp.com',
     source: 'https://github.com/CarlosBalladares/Hackerrank-interview-preparation-kit-solutions'
