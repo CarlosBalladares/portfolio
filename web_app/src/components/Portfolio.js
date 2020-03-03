@@ -1,7 +1,6 @@
-import React, {Component} from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import ImgMediaCard from'./Card.js';
-import Typography from '@material-ui/core/Typography';
+import React, { Component } from 'react';
+import ImgMediaCard from './Card.js';
 
 
 const styles={
@@ -19,6 +18,16 @@ const styles={
 }
 
 const portfolioData=[
+  {
+    thumbnail:require('./../assets/autofica.png'),
+    title:"Autofica",    
+    desc:'A marketing funnel for auto dealers. This project features a form and is built fully serverless',
+    tech:['react', 'aws', 'serverless'],
+    demo:'https://www.autofica.com',
+    source: 'proprietary'
+
+  },
+
   {
     thumbnail: require('./../assets/image-14.jpg'),
     title: 'Connected sounds',
