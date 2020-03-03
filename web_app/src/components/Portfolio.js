@@ -21,7 +21,7 @@ const portfolioData=[
   {
     thumbnail:require('./../assets/autofica.png'),
     title:"Autofica",    
-    desc:'A marketing funnel for auto dealers. This project features a form and is built fully serverless',
+    desc:'A marketing funnel for auto dealers. This project features a complex form that gathers data and sends emails. Built with amplify, serverless',
     tech:['react', 'aws', 'serverless'],
     demo:'https://www.autofica.com',
     source: 'proprietary'
