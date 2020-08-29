@@ -18,6 +18,14 @@ const styles = {
 
 const portfolioData = [
   {
+    thumbnail: require("./../assets/leadsautofica.png"),
+    title: "Autofica Leads",
+    desc: "Lead delivery system for auto dealers.",
+    tech: ["react", "redux", "saga"],
+    demo: "https://panel.autofica.com",
+    source: "proprietary",
+  },
+  {
     thumbnail: require("./../assets/native-theme-cap.png"),
     title: "native-theme",
     desc:
