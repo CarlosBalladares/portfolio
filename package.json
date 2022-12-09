@@ -24,7 +24,7 @@
   "homepage": "https://github.com/CarlosBalladares/portfolio#readme",
   "dependencies": {
     "ascii-art": "^1.4.4",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "typeface-roboto": "0.0.54"
   }
 }
